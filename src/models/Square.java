@@ -24,4 +24,9 @@ public class Square implements Shape {
     public double area() {
         return Math.pow(side, 2);
     }
+
+    @Override
+    public String toString() {
+        return "A Square with side: " + side;
+    }
 }

@@ -34,4 +34,9 @@ public class Rectangle implements Shape {
     public double area() {
         return a * b;
     }
+
+    @Override
+    public String toString() {
+        return "A Rectangle with sides a: " + a + " and b: " + b;
+    }
 }

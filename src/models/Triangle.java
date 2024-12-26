@@ -46,4 +46,9 @@ public class Triangle implements Shape {
 
         return Math.sqrt(p * (p - a) * (p - b) * (p - c));
     }
+
+    @Override
+    public String toString() {
+        return "A Triangle with sides a: " + a + ", b: " + b + ", c: " + c;
+    }
 }

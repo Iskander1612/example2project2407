@@ -28,4 +28,9 @@ public class Circle implements Shape {
     public double area() {
         return Math.PI * Math.pow(radius, 2);
     }
+
+    @Override
+    public String toString() {
+        return "A circle with radius: " + radius;
+    }
 }

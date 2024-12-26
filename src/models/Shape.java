@@ -6,7 +6,7 @@ public interface Shape extends Printable {
     double area();
 
     default void print() {
-        System.out.println("A shape with type: " + getClass().getName());
+        System.out.println(this);
         System.out.println("perimeter: " + perimeter());
         System.out.println("area: " + area());
     }
